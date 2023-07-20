@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PipBoy</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="css/tether.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/pipboy.app.css" />
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <div class="collapse navbar-collapse" id="mainN">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a href="index.html" class="nav-link">STAT</a>
+      </li>
+      <li class="nav-item active">
+        <a href="inv.html" class="nav-link">INV</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">DATA</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">MAP</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">RADIO</a>
+      </li>
+    </ul>
+  </div>
+
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+
+
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a href="#status" class="nav-link" data-toggle="tab">WEAPONS</a>
+        </li>
+        <li class="nav-item">
+          <a href="#special" class="nav-link" data-toggle="tab">ARMOR</a>
+        </li>
+        <li class="nav-item">
+          <a href="#perks" class="nav-link" data-toggle="tab">AID</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active full" id="status" role="tabpanel">
+            <ul class="item-list">
+              <li><a href="#" class="44_pistol">.44 Pistol</a></li>
+              <li><a href="#" class="10mm_pistol">10mm Pistol</a></li>
+              <li><a href="#" class="assault_rifle">Assault Rifle</a></li>
+            </ul>
+
+          <div class="item-stats">
+            <div class="row-highlight">
+              <div class="row">
+                <div class="col-12">
+
+                  <div class="damage pull-right">48 </div>
+                  <div class="pull-left">DAMAGE
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row-highlight">
+              <div class="row">
+                <div class="col-12">
+
+                  <div class="ammo pull-right">500  </div>
+                  <div class="pull-left">AMMO
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row-highlight">
+              <div class="row">
+                <div class="col-12">
+
+                  <div class="fire_rate pull-right">48 </div>
+                  <div class="pull-left">FIRE RATE
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row-highlight">
+              <div class="row">
+                <div class="col-12">
+
+                  <div class="range pull-right">48 </div>
+                  <div class="pull-left">RANGE
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row-highlight">
+              <div class="row">
+                <div class="col-12">
+
+                  <div class="accuracy pull-right">48 </div>
+                  <div class="pull-left">ACCURACY
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row-highlight">
+              <div class="row">
+                <div class="col-12">
+
+                  <div class="weight pull-right">48 </div>
+                  <div class="pull-left">WEIGHT
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row-highlight">
+              <div class="row">
+                <div class="col-12">
+
+                  <div class="value pull-right">48 </div>
+                  <div class="pull-left">VALUE
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="tab-pane" id="special" role="tabpanel">
+          ARMOR
+        </div>
+        <div class="tab-pane" id="perks" role="tabpanel">
+          AID
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<navbar class="navbar navbar-light pip-footer">
+  <div class="row">
+    HP 90/90
+  </div>
+  <div class="col-6 text-center">
+    <span>LEVEL 1</span>
+    <div class="level-progress">
+      <div class="level-progress-indicator" width="80%">
+      </div>
+    </div>
+  </div>
+  <div class="col-3 text-right" >
+    AP 50/50
+  </div>
+</navbar>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="./js/pipboy.app.js"></script>
+
+</body>
+</html>
